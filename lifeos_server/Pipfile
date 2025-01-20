@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chalice = "*"
+boto3 = "*"
+"pymongo[srv]" = "*"
+python-dotenv = "*"
+moto = {extras = ["dynamodb"], version = "==4.2.13"}
+pyjwt = "*"
+mongomock = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
