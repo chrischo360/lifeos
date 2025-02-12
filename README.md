@@ -1,5 +1,7 @@
 # LifeOS
 
+Haven't really figured out what it is yet hahaha
+
 # Technologies
 
 Framework: Next.js
