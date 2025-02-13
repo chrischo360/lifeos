@@ -1,6 +1,6 @@
 # LifeOS
 
-Haven't really figured out what it is yet hahaha
+Software to quickly create, categorize, and break down vague ideas into actionable clear goals. Takes advantage of a combination of AI, psychology, and two way communication.  
 
 # Technologies
 
