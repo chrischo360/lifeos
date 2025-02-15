@@ -1,10 +1,11 @@
-import { Title, Text } from '@mantine/core';
+import { Title, Container } from '@mantine/core';
+import { GoalInput } from '../components/GoalInput';
 
 export default function HomePage() {
   return (
-    <>
-      <Title>LifeOS</Title>
-      <Text></Text>
-    </>
+    <Container>
+      <Title mb="md">LifeOS</Title>
+      <GoalInput />
+    </Container>
   );
 }
