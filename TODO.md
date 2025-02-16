@@ -1,5 +1,6 @@
 # Frontend 
-- Create some way to take as input goals
 
 # Backend
-- Store goals 
+
+# Dev Tools
+- Figure out how LSP works and the right shortcuts to get information
