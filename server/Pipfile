@@ -15,6 +15,7 @@ python-dotenv = "*"
 moto = {extras = ["dynamodb"], version = "==4.2.13"}
 pyjwt = "*"
 mongomock = "*"
+pinecone = "*"
 
 [dev-packages]
 

@@ -1,9 +1,17 @@
+import os
+import uuid
+import boto3
+from dotenv import load_dotenv
 from chalice import Chalice, Response
 from chalice import BadRequestError
-import uuid
 from chalice.app import CORSConfig
-import boto3
 from botocore.exceptions import ClientError
+from pinecone import Pinecone, ServerlessSpec
+
+load_dotenv()
+pinecone_api_key=os.environ.get('PINECONE_API_KEY')
+
+pc = Pinecone(pinecone_api_key)
 
 # Create a CORS configuration
 cors_config = CORSConfig(
@@ -47,4 +55,3 @@ def create_goal():
         return Response(body=new_goal, status_code=201)
     except ClientError as e:
         return Response(body={'error': str(e)}, status_code=500)
-
